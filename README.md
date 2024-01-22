@@ -29,6 +29,8 @@ This project contains two libraries consisting of two samples each. There are tw
 
 ## Jupyter Notebooks
 
-The notebook for merging and doublet removal is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231218_Mouse_PDAC_Merging_Doublet_Removal_FINAL.ipynb`
+The notebook for merging and doublet removal is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231218_Mouse_PDAC_Merging_Doublet_Removal_FINAL.ipynb` 
+
 The notebook for FindMarkers and fGSEA is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231212_Mouse_PDAC_findMarkers_fGSEA_FINAL.ipynb`
+
 The notebook for CellChat is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231214_Mouse_PDAC_CellChat_FINAL.ipynb`
