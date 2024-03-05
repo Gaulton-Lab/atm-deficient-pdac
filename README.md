@@ -1,36 +1,20 @@
 # ATM-Deficient PDAC 
 
-Github: [https://github.com/Gaulton-Lab/mouse-pdac]
-
 ## Overview: 
 
-This repository contains notebooks designed to process samples, run several QC metrics, and perform downstream analyses  on the mouse PDAC data. There are 3 notebooks: merging and doublet removal, findMarkers and fGSEA, and CellChat.
+This repository contains notebooks used to process and analyze single cell sequencing data (10x Multiome) from tumor samples from KPC and AKPC (KPC + ATM knock out) mouse models of pancreatic ductal adenocarcinoma. Briefly, these notebooks were used to combine multiple single cell sequencing libraries into a single map, apply QC metrics, cluster and identify cell types, and perform downstream analyses using both the snRNA-seq and snATAC-seq. There are 5 notebooks, each containing code necessary for separate tasks: 
+1. Merge libraries and perform doublet removal
+2. Run differential gene expression analysis with findMarkers and fGSEA (snRNA-seq based)
+3. Predict cell-cell interactions with CellChat (snRNA-seq based)
+4. Calculate and compare accessibility of TF binding motifs with ChromVAR (snATAC-seq based)
+5. Construct gene regulatory networks (GRNs) with Pando (snRNA-seq and snATAC-seq based)
 
-This project contains two libraries consisting of two samples each. There are two genotypes: AKPC and KPC. The samples were first processed through the multiome pipeline (created by Hannah Mummey) that includes three pipelines: R Script #1, Python Script, and R Script #2. You can find the github repo for the multiome pipeline here: [https://github.com/Gaulton-Lab/multiome-pipeline]
+This project contains two libraries consisting of two pooled samples each. There are two genotypes: AKPC and KPC, each represented as one library. The samples were first processed through a 10x Multiome processing pipeline that includes three major steps: identification and removal of empty droplets, conversion of snATAC-seq data to 5kb windows, and background correction. You can find the github repo for this pipeline here: [https://github.com/Gaulton-Lab/multiome-pipeline]
 
 ## Required Dependencies
 
-#### R Packages
+As different tools require different dependencies and sometimes even different versions of the same dependencies, we had to run different analyses in different environments. To see which dependencies were required for each notebook, see the final section with `sessionInfo()` information.
 
-- Seurat (v4.3.0.1)
-- Signac (v1.10.0)
-- EnsDb.Mmusculus.v79
-- SoupX
-- Harmony
-- ggplot2
-- ggpubr
-- reticulate
-- data.table
-- dplyr
-- GenomeInfoDb
-- Cellranger
-- CellChat
-- Scrublet
+## Citation
 
-## Jupyter Notebooks
-
-The notebook for merging and doublet removal is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231218_Mouse_PDAC_Merging_Doublet_Removal_FINAL.ipynb` 
-
-The notebook for FindMarkers and fGSEA is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231212_Mouse_PDAC_findMarkers_fGSEA_FINAL.ipynb`
-
-The notebook for CellChat is located at `/nfs/lab/ylee/multiomic_islet/notebooks/231214_Mouse_PDAC_CellChat_FINAL.ipynb`
+[insert paper citation and link once it's published]
