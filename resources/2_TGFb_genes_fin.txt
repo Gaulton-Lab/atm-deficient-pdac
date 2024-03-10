@@ -1,24 +1,24 @@
 gene	category	support	literature
-Tgfb1	ligand	Elodie	
-Tgfb2	ligand	Elodie	
-Tgfb3	ligand	Elodie	
-Tgfbr1	receptor	Elodie,StringDB	
-Tgfbr2	receptor	Elodie,StringDB	
+Tgfb1	ligand	Common knowledge	
+Tgfb2	ligand	Common knowledge	
+Tgfb3	ligand	Common knowledge	
+Tgfbr1	receptor	Common knowledge,StringDB	
+Tgfbr2	receptor	Common knowledge,StringDB	
 Tgfbr3	receptor	StringDB	
-Ltbp1	secretion cofactor	Elodie,Literature,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
-Ltbp2	secretion cofactor	Elodie,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
-Ltbp3	secretion cofactor	Elodie,Literature,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
+Ltbp1	secretion cofactor	Common knowledge,Literature,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
+Ltbp2	secretion cofactor	Common knowledge,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
+Ltbp3	secretion cofactor	Common knowledge,Literature,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
 Ltbp4	secretion cofactor	Literature,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4844006/
-Thbs1	tgfb activation	Elodie,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015530/
-Itgav	tgfb activation	Elodie,StringDB	
-Itgb1	tgfb activation	Elodie	
-Itgb3	tgfb activation	Elodie	
-Itgb5	tgfb activation	Elodie,Literature	https://arthritis-research.biomedcentral.com/articles/10.1186/s13075-020-2130-5#:~:text=Specific integrins%2C like αVβ5%2C αVβ6,degrade the LAP%2FLTBP complex.
-Itgb6	tgfb activation	Elodie,Literature	https://arthritis-research.biomedcentral.com/articles/10.1186/s13075-020-2130-5#:~:text=Specific integrins%2C like αVβ5%2C αVβ6,degrade the LAP%2FLTBP complex.
-Itgb8	tgfb activation	Elodie,Literature	https://arthritis-research.biomedcentral.com/articles/10.1186/s13075-020-2130-5#:~:text=Specific integrins%2C like αVβ5%2C αVβ6,degrade the LAP%2FLTBP complex.
-Bmp1	tgfb activation	Elodie,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2064503/
-Adam8	tgfb activation	Elodie,Literature	https://www.frontiersin.org/articles/10.3389/fcell.2023.1130823/full
-Agt	tgfb activation	Elodie,Literature	https://pubmed.ncbi.nlm.nih.gov/22348081/
+Thbs1	tgfb activation	Common knowledge,StringDB	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6015530/
+Itgav	tgfb activation	Common knowledge,StringDB	
+Itgb1	tgfb activation	Common knowledge	
+Itgb3	tgfb activation	Common knowledge	
+Itgb5	tgfb activation	Common knowledge,Literature	https://arthritis-research.biomedcentral.com/articles/10.1186/s13075-020-2130-5#:~:text=Specific integrins%2C like αVβ5%2C αVβ6,degrade the LAP%2FLTBP complex.
+Itgb6	tgfb activation	Common knowledge,Literature	https://arthritis-research.biomedcentral.com/articles/10.1186/s13075-020-2130-5#:~:text=Specific integrins%2C like αVβ5%2C αVβ6,degrade the LAP%2FLTBP complex.
+Itgb8	tgfb activation	Common knowledge,Literature	https://arthritis-research.biomedcentral.com/articles/10.1186/s13075-020-2130-5#:~:text=Specific integrins%2C like αVβ5%2C αVβ6,degrade the LAP%2FLTBP complex.
+Bmp1	tgfb activation	Common knowledge,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2064503/
+Adam8	tgfb activation	Common knowledge,Literature	https://www.frontiersin.org/articles/10.3389/fcell.2023.1130823/full
+Agt	tgfb activation	Common knowledge,Literature	https://pubmed.ncbi.nlm.nih.gov/22348081/
 Acvr1b	SMAD1.5,coreceptor	CellchatDB,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832415/
 Acvr1c	SMAD1.5,coreceptor	CellchatDB,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832415/
 Acvr1	SMAD1.5,coreceptor	CellchatDB,Literature	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832415/
