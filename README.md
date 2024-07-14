@@ -1,6 +1,6 @@
 # Multimodal Single Cell Investigation of ATM-Deficient PDAC 
 
-## Overview: 
+## Overview
 
 This repository contains notebooks and R scripts used to process and analyze single cell sequencing data (10x Multiome) from tumor samples from KPC and AKPC (KPC + ATM knock out) mouse models of pancreatic ductal adenocarcinoma. Briefly, these notebooks were used to combine multiple single cell sequencing libraries into a single map, apply QC metrics, cluster and identify cell types, and perform downstream analyses using both the snRNA-seq and snATAC-seq. There are 5 notebooks, each containing code necessary for separate tasks: 
 1. Merge libraries and perform doublet removal
